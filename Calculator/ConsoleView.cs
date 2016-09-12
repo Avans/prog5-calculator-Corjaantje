@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
-    class Program
+    class ConsoleView
     {
-        static void Main(string[] args)
+        public void writeInConsole(String text)
         {
-            AgeCalc calculator = new AgeCalc();
+            Console.WriteLine(text);
         }
     }
 }
